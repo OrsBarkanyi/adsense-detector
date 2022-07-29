@@ -17,3 +17,5 @@ const adsenseData = await Promise.all(adsenseDataPromises)
 const results = data.map((line, index) => [line[0], adsenseData[index]])
 
 arrayToCsv('./adsenseData.csv', ["url", "adsense"], results)
+
+process.exit()
