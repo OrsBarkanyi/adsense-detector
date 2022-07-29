@@ -1,0 +1,24 @@
+{
+  "name": "adsense-detector",
+  "version": "1.0.0",
+  "description": "Detects whether google adsense is running on a page",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrsBarkanyi/adsense-detector.git"
+  },
+  "author": "Ors Barkanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrsBarkanyi/adsense-detector/issues"
+  },
+  "homepage": "https://github.com/OrsBarkanyi/adsense-detector#readme",
+  "dependencies": {
+    "puppeteer": "^15.5.0"
+  }
+}
